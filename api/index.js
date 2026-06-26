@@ -25,6 +25,14 @@ app.get("/api/health", (req, res) => {
   });
 });
 
+
+app.get("/", (req, res) => {
+  res.json({
+    message: "🎂 Birthday Card Generator API Running",
+  });
+});
+
+
 app.use("/api/cards", cardRoutes);
 
 // Fallback for unknown routes
