@@ -7,7 +7,7 @@ import cardRoutes from "../routes/cardRoutes.js";
 dotenv.config();
 
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5002;
 const allowedOrigins = [
   process.env.CLIENT_URL_LOCAL,
   process.env.CLIENT_URL_PROD,
