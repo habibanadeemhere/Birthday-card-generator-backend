@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 5002;
 const allowedOrigins = [
   process.env.CLIENT_URL_LOCAL,
   process.env.CLIENT_URL_PROD,
-  "*"
+
 ].filter(Boolean);
 
 
